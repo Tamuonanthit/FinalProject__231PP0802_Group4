@@ -26,6 +26,8 @@
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/0da8c064-3faf-4068-9684-60f98d9b8688)
 # 6: Calculate RFM score and Visualization Segment 
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/49b721b6-9235-423f-bdfc-a0a8557fc858)
+![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/991c7cd5-1517-4344-bc31-ce2ce9495b98)
+![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/eaa0d683-932b-4bda-8360-599c4b184356)
 
 # 7: Transformation and Standardization (Z score) 
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/4bea4923-7a1a-4f04-b5b7-ebfa672f226b)
