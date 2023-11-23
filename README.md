@@ -36,7 +36,7 @@
  - Then,  StandardScaler boxcox values
 # 8: K-mean , Elbow, Silhouette
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/6e6270a4-e82d-446a-8db6-81dfdea0c494)
-![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/e1d20df1-1867-4382-b5f1-782893e5b76d)
+![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/3ce48ab4-a572-4d0f-9eb8-00039a5d0f8e)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/0032fb72-004a-4685-96b4-5c03ea86346d)
 # Box plot to visualize Cluster Id vs Monetary
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/9ca9878a-d44e-4d73-b008-533b5152c810)
