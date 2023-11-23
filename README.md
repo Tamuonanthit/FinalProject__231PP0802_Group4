@@ -33,8 +33,8 @@
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/9908d6ca-f730-403c-b18b-6e693a546edb)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/ec2895ea-d942-4b9d-955d-a7c7c79338ad)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/38960e57-fc72-43d6-a2d3-080f8ec308d0)
- - We chose boxcox transformation because it had lowest standard
- - Then,  StandardScaler boxcox values we had before
+ - Chose boxcox transformation because it had lowest standard
+ - Then,  StandardScaler boxcox values
 # 8: K-mean , Elbow, Silhouette
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/6e6270a4-e82d-446a-8db6-81dfdea0c494)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/e1d20df1-1867-4382-b5f1-782893e5b76d)
