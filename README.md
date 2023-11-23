@@ -6,18 +6,18 @@
 # 1: Import libraries 
 # 2: Read Salesdata
 - Read it by command: df = pd.read_csv("Salesdata.csv")
-- Drop unnescessary columns, just store nesscessary data for calculating RFM values, we have " CustomerKey"	"SALE ORDER"	"ORDER DATE"	"Sales Amount" columns left.
-- Change column name, the column name is already pretty good, but I prefer use lowercase and use underscore instead of space, for me, it's easier to read and code
+- Drop unnescessary columns, just store nesscessary data for calculating RFM values: " CustomerKey"	"SALE ORDER"	"ORDER DATE"	"Sales Amount" columns.
+- Change column name, the column name is already pretty good, but our team prefer use lowercase and use underscore instead of space, it's easier to read and code
 # 3: Create RFM table
 - Calculate R values and create R table with customer_key 
 - Calculate F values and create F table with customer_key 
 - Calculate M values and create M table with customer_key 
 - Merge R, F, M Table into 1 DataFrame
 - ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/57bd74d5-7c25-4cb5-83a6-5353898b5936)
-- Decribe it and we know about count, mean, standard,min,max,quartiles.
+- Decribe it to know about count, mean, standard,min,max,quartiles.
 # 4: RFM-G
-- Drop unesscessary columns, after that we have "country_region"	and calculate "sum_sales_of_country" from monetary 
-
+- Drop unesscessary columns, groupby "country_region"	and calculate "sum_sales_of_country" from monetary 
+- Add G table to RFM table
 # 5: EDA RFMG
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/b8bac3a5-789d-4cee-a71f-60fc5c2fe6bb)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/b57e2453-6cd8-4fb5-8f24-93d9f9b5a13b)
@@ -28,7 +28,6 @@
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/49b721b6-9235-423f-bdfc-a0a8557fc858)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/991c7cd5-1517-4344-bc31-ce2ce9495b98)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/eaa0d683-932b-4bda-8360-599c4b184356)
-
 # 7: Transformation and Standardization (Z score) 
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/4bea4923-7a1a-4f04-b5b7-ebfa672f226b)
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/9908d6ca-f730-403c-b18b-6e693a546edb)
@@ -48,10 +47,5 @@
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/99fb4ae0-20f1-4822-bd49-4cd1bfea4e26)
 
 # Calculate CLV 
-- Import data from AHP
-- weight_RFM = {
-    'WR': 0.7306,
-    'WF': 0.1884,
-    'WM': 0.0809
-  }
+- Import data from AHP and calculate CLV
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/33727993-ea8c-479e-9e76-856a83c3ab81)
