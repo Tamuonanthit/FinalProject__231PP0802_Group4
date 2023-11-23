@@ -44,7 +44,6 @@
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/9ad69071-db0b-4a9b-acf2-c7fa5a867f7d)
 # Box plot to visualize cluster Id vs recency
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/99fb4ae0-20f1-4822-bd49-4cd1bfea4e26)
-
 # Calculate CLV 
 - Import data from AHP and calculate CLV
-- ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/33727993-ea8c-479e-9e76-856a83c3ab81)
+![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/ade036f4-7337-4568-b39b-2b69107c20f0)
