@@ -1,0 +1,45 @@
+# Overview about source code file:
+- This script appears to cover a comprehensive analysis of sales and customer data, including data preprocessing, exploratory analysis, segmentation, and clustering. 
+- The provided GitHub link allows for further exploration of the project's details and source code.
+# How to use:
+- First, you should download file data, then import to your code folder.
+- Python enviroment and Jupyter enviroment are required to run the code, so make sure you have it on your computer.
+1. Import libraries: 
+- If you can not import libraries, you can try open PythonScripts on your computer and then use command: pip install [name of library].
+2. Read Salesdata and Data cleaning 
+- Read it by command: df = pd.read_csv("Salesdata.csv").
+- Drop unnescessary columns, just store nesscessary data for calculating RFM values: " CustomerKey" "SALE ORDER" "ORDER DATE" "Sales Amount" columns.
+- Change column name, the column name is already pretty good, but our team prefer use lowercase and use underscore instead of space, it's easier to read and code.
+- Checking if the OrderDate column data match the format by returning the min and max of day/month/year.
+3. Descriptive Analysis 
+- Conducts descriptive analysis on the sales data.
+4. G values
+- Read file "Customerdata.csv".
+- Drop unesscessary columns, groupby "country_region" and calculate "sum_sales_of_country" from monetary.
+5. RFM values
+- Calculate R values and create R table with customer_key 
+- Calculate F values and create F table with customer_key 
+- Calculate M values and create M table with customer_key 
+- Merge R, F, M Table into 1 dataframe 
+- Decribe it to know about count, mean, standard, min, max, quartiles.
+- EDA RFMG.
+- Find outlier values.
+6. Transformation 
+ - Chose boxcox transformation because it had lowest standard.
+ - Then, StandardScaler boxcox values.
+7. Standardization (Z score) 
+- Scales and standardizes the data using Z scores.
+- Comparison Transformed data and Standardized data.
+8. Calculate RFM score and Segmentation
+- Calculates RFM scores for each customer.
+- Segments customers based on RFM scores.
+- Visualize Segmentation by bar chart, pie chart
+9. K-mean , Elbow, Silhouette
+- Using data which are standardized to cluster customers by K-means.
+- Box plot to visualize relationship between cluster Id vs monetary.
+- Box plot to visualize relationship between cluster Id vs frequency.
+- Box plot to visualize relationship between cluster Id vs recency.
+10. Calculate CLV 
+- Import data from AHP and calculate CLV.
+# Provides a GitHub link for additional information and access to the project's repository:
+- https://github.com/Tamuonanthit/FinalProject__231PP0802_Group4
