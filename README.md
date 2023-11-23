@@ -48,4 +48,4 @@
 
 # Calculate CLV 
 - Import data from AHP and calculate CLV
-![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/33727993-ea8c-479e-9e76-856a83c3ab81)
+- ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/33727993-ea8c-479e-9e76-856a83c3ab81)
