@@ -46,4 +46,4 @@
 ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/99fb4ae0-20f1-4822-bd49-4cd1bfea4e26)
 # Calculate CLV 
 - Import data from AHP and calculate CLV
-![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/ade036f4-7337-4568-b39b-2b69107c20f0)
+- ![image](https://github.com/Tamuonanthit/PPNCLN/assets/118418261/ade036f4-7337-4568-b39b-2b69107c20f0)
